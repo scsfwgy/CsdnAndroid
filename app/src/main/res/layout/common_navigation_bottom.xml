@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/four_btn_hight"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/cnb_ll_block1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/pad_top">
+
+            <ImageView
+                android:id="@+id/cnb_iv_block1"
+                android:layout_width="@dimen/nav_btn_width"
+                android:layout_height="@dimen/nav_btn_height"
+                android:background="@drawable/tuijian_g"/>
+
+            <TextView
+                android:id="@+id/cnb_tv_block1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/pad_text"
+                android:text="@string/recommend"
+                android:textColor="@color/four_btn_color_def"
+                android:textSize="@dimen/four_btn_text_size"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/cnb_ll_block2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/pad_top">
+
+            <ImageView
+                android:id="@+id/cnb_iv_block2"
+                android:layout_width="@dimen/nav_btn_width"
+                android:layout_height="@dimen/nav_btn_height"
+                android:background="@drawable/youzhi_g"/>
+
+            <TextView
+                android:id="@+id/cnb_tv_block2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/pad_text"
+                android:text="@string/grade"
+                android:textColor="@color/four_btn_color_def"
+                android:textSize="@dimen/four_btn_text_size"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cnb_ll_block3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/pad_top">
+
+            <ImageView
+                android:id="@+id/cnb_iv_block3"
+                android:layout_width="@dimen/nav_btn_width"
+                android:layout_height="@dimen/nav_btn_height"
+                android:background="@drawable/common_tab_faxian_n"/>
+
+            <TextView
+                android:id="@+id/cnb_tv_block3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/pad_text"
+                android:text="@string/search"
+                android:textColor="@color/four_btn_color_def"
+                android:textSize="@dimen/four_btn_text_size"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cnb_ll_block4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/pad_top">
+
+            <ImageView
+                android:id="@+id/cnb_iv_block4"
+                android:layout_width="@dimen/nav_btn_width"
+                android:layout_height="@dimen/nav_btn_height"
+                android:background="@drawable/common_tab_me_n"/>
+
+            <TextView
+                android:id="@+id/cnb_tv_block4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/pad_text"
+                android:text="@string/mine"
+                android:textColor="@color/four_btn_color_def"
+                android:textSize="@dimen/four_btn_text_size"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

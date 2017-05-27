@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_app_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        >
+
+        <com.gaoyuan.csdnandroid.myview.JustifyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/support_reason"
+            android:textColor="@color/colorText"
+            android:textSize="16dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/as_tv_1"
+                style="@style/as_money"
+                android:text="1.1元"/>
+
+            <TextView
+                android:id="@+id/as_tv_2"
+                style="@style/as_money"
+                android:text="2.2元"/>
+
+            <TextView
+                android:id="@+id/as_tv_3"
+                style="@style/as_money"
+                android:text="5.21元"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            >
+
+            <TextView
+                android:id="@+id/as_tv_4"
+                style="@style/as_money"
+                android:text="10元"/>
+
+            <TextView
+                android:id="@+id/as_tv_5"
+                style="@style/as_money"
+                android:text="20元"/>
+
+            <TextView
+                android:id="@+id/as_tv_6"
+                style="@style/as_money"
+                android:text="52.1元"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/as_tv_othermoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="其它金额"
+        android:textColor="@color/colorBlue"
+        />
+
+    <LinearLayout
+        android:id="@+id/as_ll_inputBlock"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/as_et_input"
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:background="@drawable/bg_rectangle_white_blueline"
+            android:hint="1~520"
+            android:inputType="number"
+            android:paddingLeft="8dp"
+            android:textColor="@color/money_red"
+            android:textColorHint="@color/colorHint"/>
+
+        <Button
+            android:id="@+id/as_b_ok"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="8dp"
+            android:background="@color/colorBlue"
+            android:text="确 认"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="相信技术的力量"/>
+</LinearLayout>

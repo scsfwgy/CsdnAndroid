@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_app_bar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <!--王高远占坑-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="成员：王高远"
+                    android:textColor="@color/colorText"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="电邮：wgyscsf@163.com"
+                    android:textColor="@color/colorText"
+                    android:textSize="14dp"/>
+
+                <TextView
+                    android:id="@+id/wgyscsf_csdn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="http://blog.csdn.net/wgyscsf"
+                    android:textColor="@color/colorBlue"
+                    android:textSize="14dp"/>
+
+                <TextView
+                    android:id="@+id/wgyscsf_github"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="https://github.com/scsfwgy"
+                    android:textColor="@color/colorBlue"
+                    android:textSize="14dp"/>
+            </LinearLayout>
+
+            <!--you-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="成员：？"
+                    android:textColor="@color/colorText"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+            <!--you-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="成员：？"
+                    android:textColor="@color/colorText"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>  <!--you-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="成员：？"
+                    android:textColor="@color/colorText"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>  <!--you-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="成员：？"
+                    android:textColor="@color/colorText"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="60dp"
+                android:text="期待你的加入"
+                android:textColor="@color/colorText"
+                android:textSize="40dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

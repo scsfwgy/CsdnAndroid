@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/continer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_app_bar"/>
+
+    <com.gaoyuan.csdnandroid.myview.MyXRefreshView
+        android:id="@+id/fmr_xsf_freshload"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/ac_lv_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+    </com.gaoyuan.csdnandroid.myview.MyXRefreshView>
+</LinearLayout>

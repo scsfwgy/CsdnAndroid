@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="#fff"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/ilaeb_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:lines="2"
+        android:maxEms="100"
+        android:text="标题"
+        android:textColor="@color/colorText"
+        android:textSize="14dp"/>
+
+    <TextView
+        android:id="@+id/ilaeb_tv_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ilaeb_tv_title"
+        android:ellipsize="end"
+        android:maxLength="100"
+        android:text="地址：www.csdn.net"
+
+        android:textColor="@color/colorArtcileCommon"
+        android:textSize="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/ilaeb_ll_left"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/ilaeb_tv_url"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical">
+
+
+        <ImageView
+            android:id="@+id/ilaeb_iv_headImg"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/ic_default_image"/>
+
+
+        <TextView
+            android:id="@+id/ilaeb_tv_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/ilaeb_tv_name"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="8dp"
+            android:layout_toRightOf="@+id/ilaeb_tv_readNums"
+            android:ellipsize="end"
+            android:maxLength="10"
+            android:text="wgyscsf"
+            android:textColor="@color/colorArtcileCommon"
+
+            android:textSize="10dp"/>
+
+        <TextView
+            android:id="@+id/ilaeb_tv_publish_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:ellipsize="end"
+            android:text="发表于"
+            android:textColor="@color/colorArtcileCommon"
+
+            android:textSize="10dp"/>
+
+        <TextView
+            android:id="@+id/ilaeb_tv_publish_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:ellipsize="end"
+            android:text="2016/02/02"
+            android:textColor="@color/colorArtcileCommon"
+            android:textSize="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/ilaeb_tv_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:text="读 "
+            android:textColor="@color/colorArtcileCommon"
+
+            android:textSize="10dp"/>
+
+        <TextView
+            android:id="@+id/ilaeb_tv_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:ellipsize="end"
+            android:text="评"
+            android:textColor="@color/colorArtcileCommon"
+            android:textSize="10dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

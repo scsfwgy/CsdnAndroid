@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.gaoyuan.csdnandroid">
+
+    <!-- 网络相关 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <!-- 储存卡相关 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <!-- x5内核所需要的 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <!-- bugly -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <!-- 保存资源到SD卡 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <!--腾讯广告所需要的权限-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>    <!-- 如果需要精确定位的话请加上此权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".base.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar4Main">
+
+        </activity>
+        <activity android:name=".ui.activity.home.SecondActivity">
+        </activity>
+        <activity
+            android:name=".webview.X54BlogDetailsActivity"
+            android:label="@string/webview_loading">
+        </activity>
+        <activity
+            android:name=".webview.X54CommonWebViewActivity"
+            android:label="@string/webview_loading">
+        </activity>
+        <activity
+            android:name=".ui.activity.expert.ExpertBlogsActivity"
+            android:label="博客专家博客列表">
+        </activity>
+        <activity
+            android:name=".ui.activity.me.LoginActivity"
+            android:label="CSDN账号验证">
+        </activity>
+        <activity
+            android:name=".ui.activity.me.SettingActivity"
+            android:label="设置">
+        </activity>
+        <activity
+            android:name=".ui.activity.me.CollectionActivity"
+            android:label="我收藏的文章">
+        </activity>
+        <activity
+            android:name=".ui.activity.search.SearchDetailsActivity"
+            android:label="搜索详情页">
+        </activity>
+        <activity
+            android:name=".ui.activity.me.FavoriteModulesActivity"
+            android:label="选择喜欢的模块">
+        </activity>
+        <activity
+            android:name=".ui.activity.me.AboutActivity"
+            android:label="开发人员">
+        </activity>
+        <activity
+            android:name=".ui.activity.me.SupportActivity"
+            android:label="需要你的支持">
+        </activity>
+
+        <!-- bmob支付 -->
+        <activity android:name="cn.bmob.pay.v3.act.PayAct"/>
+
+        <!-- bugly -->
+        <activity
+            android:name="com.tencent.bugly.beta.ui.BetaActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:theme="@android:style/Theme.Translucent"/>
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.gaoyuan.csdnandroid.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+        <!--腾讯广告-->
+        <!-- targetSDKVersion >= 24时才需要添加这个provider。provider的authorities属性的值为${applicationId}.fileprovider，请开发者根据自己的${applicationId}来设置这个值 -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.gaoyuan.csdnandroid.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+        <service
+            android:name="com.qq.e.comm.DownloadService"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.qq.e.ads.ADActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".ui.activity.AdSplashActivity">
+
+        </activity>
+
+        <activity android:name=".ui.activity.LauncherActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

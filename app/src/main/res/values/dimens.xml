@@ -1,0 +1,30 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--默认全局边距-->
+    <dimen name="common_def_left">16dp</dimen>
+    <dimen name="common_def_right">16dp</dimen>
+    <!--底部按钮-->
+    <dimen name="four_btn_hight">55dp</dimen>
+    <dimen name="four_btn_text_size">12sp</dimen>
+    <dimen name="pad_top">6dp</dimen>
+    <dimen name="pad_text">2dp</dimen>
+    <dimen name="nav_btn_width">25dp</dimen>
+    <dimen name="nav_btn_height">25dp</dimen>
+
+
+    <!--优质模块上面的字体的大小-->
+    <dimen name="tab_top_font_size">14sp</dimen>
+    <!--弹出框字体大小-->
+    <dimen name="pop_text_size">10sp</dimen>
+
+    <!--横栏的上的字体大小，密码设置、我的收藏、隐私等-->
+    <dimen name="horizontal_line_text_size">16sp</dimen>
+
+</resources>

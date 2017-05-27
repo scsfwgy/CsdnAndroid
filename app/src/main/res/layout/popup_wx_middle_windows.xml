@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/psfb_rl_outer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/pop_outer_bg"
+        >
+
+        <LinearLayout
+            android:id="@+id/psfb_ll_inner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/bg_rectangle_white"
+            android:orientation="vertical"
+            >
+
+            <ListView
+                android:id="@+id/psfb_gv_gridview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:fadeScrollbars="true"
+                android:gravity="center"
+                ></ListView>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

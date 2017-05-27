@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/psfb_rl_outer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/pop_outer_bg"
+        >
+
+        <LinearLayout
+            android:id="@+id/psfb_ll_inner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/bg_rectangle_white"
+            android:orientation="vertical"
+            android:padding="16dp"
+            >
+
+            <ImageView
+                android:id="@+id/pwpw_iv_headImg"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/def_avatar"/>
+
+            <TextView
+                android:id="@+id/pwpw_tv_nickName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="昵称：高远"/>
+
+            <TextView
+                android:id="@+id/pwpw_tv_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="id：wgyscsf"/>
+
+            <TextView
+                android:id="@+id/pwpw_tv_phone"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="电话：wgyscsf"/>
+
+            <TextView
+                android:id="@+id/pwpw_tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="电邮：wgyscsf"/>
+
+            <TextView
+                android:id="@+id/pwpw_tv_bolg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="博客地址：http://blog.csdn.net/wgyscsf"/>
+
+            <TextView
+                android:id="@+id/pwpw_tv_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="加入csdn+时间：2016-02-25"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

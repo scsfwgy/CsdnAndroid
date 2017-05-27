@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- 解决activity切换时的黑屏问题 -->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!--解决滑动返回上一个Activity出现桌面的bug-->
+    <style name="AppTheme.NoActionBar4Main" parent="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+
+    <style name="MyCommonPopupWindow">
+        <item name="android:windowEnterAnimation">@anim/pop_common_in</item>
+        <item name="android:windowExitAnimation">@anim/pop_common_out</item>
+    </style>
+
+
+    <style name="line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">#d21313</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
+    //布局底部按钮样式（蓝）
+
+    <style name="BottomButtonBlueItemStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/rect_button_blue</item>
+    </style>
+
+    //搜索框编辑框样式
+
+    <style name="SearchEditItemStyle">
+        <item name="android:textCursorDrawable">@drawable/edittext_cursor</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <!--悬赏金额-->
+    <style name="as_money">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/bg_rectangle_white_redline</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/money_red</item>
+        <item name="android:textSize">26dp</item>
+    </style>
+    <!--<item name="android:textStyle">bold</item>-->
+</resources>

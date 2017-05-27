@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cab_rl_container"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/cab_rl_back"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/common_nav_back"/>
+    </RelativeLayout>
+
+    <com.gaoyuan.csdnandroid.myview.AlwaysMarqueeTextView
+        android:id="@+id/cab_tv_top_title"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:maxWidth="250dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="这里是导航栏标题"
+        android:textColor="#000"
+        android:textSize="18dp"/>
+
+
+    <!--对以下两个控件的说明：下面是一个文字控件和图片控件，默认全部隐藏[gone]，当需要时设置为显示，并且手动设置其各个属性。-->
+    <TextView
+        android:id="@+id/cab_tv_right_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dp"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="保存"
+        android:textColor="@color/colorBlue"
+        android:textSize="14dp"
+        android:visibility="gone"/>
+    <!--该控件的边距以及大小还没有调整，使用之前调整好大小-->
+    <ImageView
+        android:id="@+id/cab_iv_reght_img"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dp"
+        android:src="@drawable/more"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorBorder"/>
+</RelativeLayout>

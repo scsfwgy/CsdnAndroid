@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <EditText
+        android:id="@+id/de_et_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_rectangle_white_grayline"
+        android:gravity="left"
+        android:hint="请输入建议，我们会尽快处理。\n1.功能性建议\n2.UI设计\n3.bug反馈\n4.其它"
+        android:lines="10"
+        android:maxEms="500"
+        android:minHeight="100dp"
+        android:textColorHint="@color/colorHint"/>
+</LinearLayout>

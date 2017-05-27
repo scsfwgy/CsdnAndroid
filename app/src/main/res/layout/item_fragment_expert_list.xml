@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#fff"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/ifel_iv_headImg"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/def_avatar"/>
+
+        <TextView
+            android:id="@+id/ifel_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/ifel_iv_headImg"
+            android:text="名字(id:wgyscsf)"
+            android:textColor="@color/colorText"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/ifel_tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:text="所属领域"
+            android:textColor="@color/colorArtcileCommon"
+            android:textSize="16dp"
+            />
+
+        <TextView
+            android:id="@+id/ifel_tv_readNums"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ifel_tv_name"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/ifel_iv_headImg"
+            android:text="文章阅览量："
+            android:textColor="@color/colorArtcileCommon"
+            android:textSize="16dp"
+            />
+
+        <TextView
+            android:id="@+id/ifel_tv_articalNums"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/ifel_tv_name"
+            android:layout_marginRight="8dp"
+            android:layout_toRightOf="@+id/ifel_tv_readNums"
+            android:text="博客总量："
+            android:textColor="@color/colorArtcileCommon"
+            android:textSize="16dp"
+            />
+
+        <TextView
+            android:id="@+id/ifel_tv_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/ifel_iv_headImg"
+            android:gravity="left"
+            android:text="www.csdn.net"
+            android:textColor="@color/colorBlue"
+            android:textSize="14dp"/>
+
+    </RelativeLayout>
+</LinearLayout>

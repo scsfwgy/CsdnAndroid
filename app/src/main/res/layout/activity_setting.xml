@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorContentBg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/sss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/common_app_bar"/>
+
+        <RelativeLayout
+            android:id="@+id/as_rl_line1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/top_bottom_border"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="检查更新"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/horizontal_line_text_size"/>
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/fasong_zhankai"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/top_bottom_border"
+            android:orientation="vertical"
+            android:paddingLeft="12dp">
+
+            <RelativeLayout
+                android:id="@+id/as_rl_line2"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="0.5dp"
+                android:background="@drawable/bottom_border"
+                android:paddingRight="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="设置语言"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/horizontal_line_text_size"/>
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/fasong_zhankai"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/as_rl_line3"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/bottom_border"
+                android:paddingRight="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="清空缓存"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/horizontal_line_text_size"/>
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/fasong_zhankai"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/as_rl_line4"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/bottom_border"
+                android:paddingRight="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="更新计划"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/horizontal_line_text_size"/>
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/fasong_zhankai"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/as_rl_line5"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:paddingRight="12dp">
+
+                <TextView
+                    android:id="@+id/as_tv_line5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="支持我们"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/horizontal_line_text_size"/>
+
+                <ImageView
+                    android:id="@+id/as_iv_line5_red_point"
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_toRightOf="@id/as_tv_line5"
+                    android:background="@drawable/circle_red"
+                    android:visibility="visible"/>
+
+                <ImageView
+                    android:id="@+id/as_iv_zk5"
+                    android:layout_width="8dp"
+                    android:layout_height="12dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/fasong_zhankai"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/as_rl_line6"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/top_bottom_border"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp">
+
+            <TextView
+                android:id="@+id/as_about_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="关于"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/horizontal_line_text_size"/>
+
+            <ImageView
+                android:id="@+id/as_iv_line6_red_point"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@id/as_about_txt"
+                android:background="@drawable/circle_red"
+                android:visibility="visible"/>
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/fasong_zhankai"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/as_rl_line7"
+        style="@style/BottomButtonBlueItemStyle"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/sss"
+        android:text="退出登录"/>
+</RelativeLayout>
