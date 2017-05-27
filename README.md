@@ -37,7 +37,8 @@
 ![这里写图片描述](http://img.blog.csdn.net/20170527100715199?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvd2d5c2NzZg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 ### 体验下载
-
+* 官方CSDN客户端：[https://itunes.apple.com/app/csdn-guan-fang/id952943888](https://itunes.apple.com/app/csdn-guan-fang/id952943888)
+* CSDN+下载：[https://github.com/scsfwgy/CsdnAndroid/tree/master/app](https://github.com/scsfwgy/CsdnAndroid/tree/master/app)
 
 ### 接口文档以及相关素材
 [https://github.com/scsfwgy/CsdnRoot](https://github.com/scsfwgy/CsdnRoot "https://github.com/scsfwgy/CsdnRoot")

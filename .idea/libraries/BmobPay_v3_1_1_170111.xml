@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BmobPay_v3.1.1_170111">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/BmobPay_v3.1.1_170111.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

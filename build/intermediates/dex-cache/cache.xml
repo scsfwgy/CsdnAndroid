@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.3.0\9e09011e9767bb76b5e27c9b8223476b93b14631\converter-gson-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9e09011e9767bb76b5e27c9b8223476b93b14631">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\converter-gson-2.3.0_553680e635ae731332198bb4f76e9def80b56aa3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_98970744854eefb12caa6fe66478fceff09a97f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.trello\rxlifecycle-android\1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5db4505b366d1bdf9c7fe858119c119236cc1c5c">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\com.trello-rxlifecycle-android-1.0_6105e6d178e0c9024bee772d74daee99f43d5e07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1_fc861cbde294a7e4a9efd57936d766cb077b60e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_90e51eaaef0aa52bc643392ce73d195f8e221438.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.huxq17.xrefreshview\xrefreshview\3.6.6\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="822f3676cf26e5125cf522fecd77ba8a54df63ca">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\com.huxq17.xrefreshview-xrefreshview-3.6.6_9e941e51946d0a483b43455bdc86f54d77610eac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.jakewharton.rxbinding\rxbinding\0.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffc09f4e5bdebe068e5101f587dadc42b60fbfe4">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\com.jakewharton.rxbinding-rxbinding-0.4.0_47faecd434ce67d4e89bc3421c29f888fb9958d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\adapter-rxjava\2.0.0-beta2\3a233746381a03dbb0f5f3ed10b11c3e72dba499\adapter-rxjava-2.0.0-beta2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3a233746381a03dbb0f5f3ed10b11c3e72dba499">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\adapter-rxjava-2.0.0-beta2_4231f34f4e6159f3e348d24c550c1b488a7d114e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\okhttp-2.5.0_c5a573687790528960a2cdb5042d396490d51899.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\CsdnAndroid\lib\unspecified\jars\libs\jcodec-0.1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f099be72e3f13a2789a8790072965733dd1d0fab">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\jcodec-0.1.5_7949ac6c91d7d047b194f23d0867134218ad5c00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.trello\rxlifecycle\1.0\6a38e2cd80f46ecaf6553b2eb5a05eee6d472fdb\rxlifecycle-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6a38e2cd80f46ecaf6553b2eb5a05eee6d472fdb">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\rxlifecycle-1.0_312719db61004e01c00ed151ca12bd3fdb2265ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\io.reactivex-rxandroid-1.1.0_8615a5fbaac670337b7dfcd31ae5479ab195b7c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\libs\GDTUnionSDK.4.9.545.min.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4326d5ed076b0b81eee2476793288d756a865de8">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\GDTUnionSDK.4.9.545.min_1cf8ff986de282a496baf32b42476d2fb667eadb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_2c4927473441d83bdfde110c8290de54154c403d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\libs\activation.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\activation_6beb1c39f8f118252a664441c91fa50f593d3b77.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\libs\javax.mail.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1592bd6ca4bf3605637c655b55d1e882d0aabef0">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\javax.mail_e005dfa5013021b5fdb49f68031ffea1771b8e3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\okio-1.13.0_f63c7ab08dbed3c34e0fe0b9b1a691240ffa1bb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_ff00b9d9d69f6c986a50559b28de497ddd061046.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_ca292477dfd19bd212440ed3d0da25f2b8620e3f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.3.0\af000bec2036a2a9d07197c4b03b8966bfc60b03\rxjava-1.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="af000bec2036a2a9d07197c4b03b8966bfc60b03">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\rxjava-1.3.0_07a75d7443549d05d9106a49b0497bd04cd04ea9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_1cd20700e30c3bcf51a4c3ebd53b5b8254be508e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\gson-2.7_2e85dbf641c4a16c73925139bd4ff50ebb0450dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AS_SDK\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_06d763be73db613bfe6b6a648d34770834411d46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.0\5a11f020cce2d11eb71ba916700600e18c4547e7\okhttp-3.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\okhttp-3.8.0_33bf805d1981bef7597a6907c10bb939ca43c5d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_3bee1ec934841fa5606c321db29434e8077339a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_fa809fe4cb703babdd6c1da098d0abfac600535d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\CsdnAndroid\lib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2c4d261204a04c1ef36f2f0d825d847655e3ef68">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\CsdnAndroid-lib-unspecified_75a7e29492e5549e8f726bb8e059d337482721dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_8983ecc5c943bfbbd7e96b28e238855dd5a8cd58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_bcd5d64455931fc5161f4187e7e7bcde2b876b02.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\me.imid.swipebacklayout.lib\library\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6d0958dbac8e7be76690b8e85d91698dfadbd81e">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\me.imid.swipebacklayout.lib-library-1.0.0_24732b8d4e8b020be93d02372e1bac3a85ddd3eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\retrofit-2.3.0_098b09b6a11593dc20fc4b42f55a6f8fd8090285.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.tencent.bugly\crashreport_upgrade\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5743268f3a177e4256453dfec5607ae0896b6f29">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\com.tencent.bugly-crashreport_upgrade-1.3.0_dec61905d381ba5797ee7107caede7bd55bde5c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_57b7efc8f390a9ea11042f3f1054eb7696bb8f04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.trello\rxlifecycle-components\1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b32c2324baa75a12968b466b74064c49841a0018">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\com.trello-rxlifecycle-components-1.0_8964ee9b83d75372033ae5bb35c2e856c3319989.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\jsr305-1.3.9_297c2110c0ed5161e4cb188dc01f26df83cc4230.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\2.0.0-beta2\880d9e0997b2d1bfc98e0d121ced33ee5d04aac4\retrofit-2.0.0-beta2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="880d9e0997b2d1bfc98e0d121ced33ee5d04aac4">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\retrofit-2.0.0-beta2_1f2fc976e28004d347dfde4858a351e8e75388dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.github.razerdp\BasePopup\v1.7.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f9413e1129be675656b5a9a140a3431c622d5a30">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\com.github.razerdp-BasePopup-v1.7.1_1dc3a7a8098aa1a10f870b9b1187ebdbc4086436.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_08cc50efc7d571f9e2df20369c13ee7771605eb8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.github.chrisbanes.photoview\library\1.2.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="98b5309c8d368a7c83ca5f90e0c905044c195edd">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\com.github.chrisbanes.photoview-library-1.2.4_84d6fb0d7548f606b6b9fbaae6384292cefceb27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\glide-3.7.0_1f3ddf859a86296da03fddcf50d19f29d652df81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\libs\additionnal.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\additionnal_89447857519d3fd55fef387047e22516194bfd13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.3.0\43e4ac24adc40a24c51b2d2a71a2483ef1b0ce9a\adapter-rxjava-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="43e4ac24adc40a24c51b2d2a71a2483ef1b0ce9a">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\adapter-rxjava-2.3.0_d5955ab47add8086cb4a2d5a8f22934b604ae638.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\libs\BmobPay_v3.1.1_170111.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="86d15061e5401b6fd1a7d4f2da9eeedb7d0c4617">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\BmobPay_v3.1.1_170111_76c9b66f35a73aea61ee96040b8f6ef8480050bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_f21be83e45012c1cd5873daa6fa0f0bdcd1f5ffd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.lzy.widget\ninegridview\0.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="41dc54248fbfeef9ecc8e810ce512aca8f500248">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\com.lzy.widget-ninegridview-0.2.0_6637496db34b2e7c107386d7355668a72b83f41a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_4082bc95ed9cab64607947f73c7c68e0d4e3f302.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\libs\tbs_sdk_thirdapp_v2.5.0.1037_36880_minsize_obfs_20161110_102536.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b74d9c74ea9852ea9039cab6315a02579c4a65df">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\tbs_sdk_thirdapp_v2.5.0.1037_36880_minsize_obfs_20161110_102536_30b01a1894896cee6f590657b684cfdd0e8b6c1d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_e986b8ba176eaf2eb82d76915eed252d75867361.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\eventbus-3.0.0_338198e230e883acd6c9c82ca46ba5fc3096755c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\library-2.4.0_dd460f45d27a359687729c3c169358b1eda3100b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="F:\SpierDevSpace\AndriodSpace\CsdnAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_e1eb264faf3697b35c88eff95262acda86afe8f0.jar" />
+    </item>
+
+</items>

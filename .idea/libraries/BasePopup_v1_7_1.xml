@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="BasePopup-v1.7.1">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.razerdp/BasePopup/v1.7.1/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.razerdp/BasePopup/v1.7.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
